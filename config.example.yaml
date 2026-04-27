@@ -1,0 +1,30 @@
+search:
+  queries:
+    - "software engineer"
+    - "backend engineer"
+    - "python engineer"
+  locations:
+    - "San Francisco, CA"
+    - "New York, NY"
+    - "Remote"
+  date_posted: "week"  # today | week | month
+
+scoring:
+  threshold: 70         # minimum score (0-100) to surface a job
+  alert_threshold: 90   # score at which to flag for immediate attention
+
+filters:
+  deal_breakers:
+    - "blockchain"
+    - "crypto"
+    - "gambling"
+    - "web3"
+    - "nft"
+
+gist:
+  id: ""                         # GitHub Gist ID — create one at gist.github.com
+  filename: "seen_jobs.json"
+
+email:
+  from: "scout@yourdomain.com"   # must be a verified Resend sender domain
+  to: "you@example.com"
