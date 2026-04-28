@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "apple::senior ios engineer::remote",
+    "title": "Senior iOS Engineer",
+    "company": "Apple",
+    "location": "Remote",
+    "description": "Apple's Maps team is hiring a Senior iOS Engineer to build and optimize the Maps application for iPhone and iPad. You will write high-performance Swift and Objective-C, own core rendering pipelines, and collaborate with hardware teams. Strong UIKit and SwiftUI experience required. H-1B visa sponsorship available. Remote-friendly.",
+    "source": "serpapi_test",
+    "salary_min": 210000,
+    "salary_max": 255000,
+    "salary_currency": "USD",
+    "is_remote": true,
+    "posted_at": "3 days ago",
+    "apply_link": "https://apple.com/careers/444"
+  },
+  "expected_score_min": 5,
+  "expected_score_max": 25,
+  "label": "senior_ios_engineer_remote_swift"
+}

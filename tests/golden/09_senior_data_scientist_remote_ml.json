@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "openai::senior data scientist::remote",
+    "title": "Senior Data Scientist",
+    "company": "OpenAI",
+    "location": "Remote",
+    "description": "OpenAI is seeking a Senior Data Scientist to drive product analytics and ML model evaluation. You will use Python (pandas, scikit-learn, PyTorch) to analyze model behavior at scale, run experiments, and surface insights to the product team. Strong statistical modeling and A/B testing experience required. H-1B visa sponsorship available. Remote.",
+    "source": "serpapi_test",
+    "salary_min": 205000,
+    "salary_max": 250000,
+    "salary_currency": "USD",
+    "is_remote": true,
+    "posted_at": "2 days ago",
+    "apply_link": "https://openai.com/careers/333"
+  },
+  "expected_score_min": 15,
+  "expected_score_max": 35,
+  "label": "senior_data_scientist_remote_ml"
+}

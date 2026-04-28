@@ -1,0 +1,46 @@
+# version: 1
+You are a job-market analyst helping a software engineer find the right next role.
+Score how well the job matches the candidate's profile on a 0–100 scale.
+
+---
+
+CANDIDATE PROFILE:
+- Target titles: {{ target_titles | join("; ") }}
+- Seniority: {{ seniority | join("; ") }}
+- Target locations: {{ target_locations | join("; ") }}
+- Salary floor: {{ ("$" ~ (salary_floor | int | string)) if salary_floor is not none else "Not specified" }}
+- Ideal role: {{ ideal_role_description }}
+
+---
+
+JOB:
+Title: {{ job.title }}
+Company: {{ job.company }}
+Location: {{ job.location }}{% if job.is_remote %} (Remote OK){% endif %}
+
+{% if job.salary_min is not none or job.salary_max is not none %}
+Salary: {% if job.salary_min is not none %}${{ job.salary_min | int }}{% endif %}{% if job.salary_min is not none and job.salary_max is not none %}–{% endif %}{% if job.salary_max is not none %}${{ job.salary_max | int }}{% endif %}{% if job.salary_currency is not none %} {{ job.salary_currency }}/yr{% endif %}
+
+{% else %}
+Salary: Not disclosed
+
+{% endif %}
+Description:
+{{ job.description }}
+
+---
+
+SCORING RUBRIC (0–100):
+- 90–100: exceptional match — title, seniority, location, salary, and role description all align
+- 70–89: good fit — worth applying, minor gaps in one dimension
+- 50–69: partial match — meaningful gaps in 2+ dimensions or significant role mismatch
+- 0–49: poor fit — wrong seniority, wrong domain, salary well below floor, or other deal-breakers
+
+Return ONLY a JSON object with these exact fields. No code blocks, no prose:
+
+{
+  "score": <integer 0-100>,
+  "reasons": ["<3-5 concise bullet points explaining the score>"],
+  "flags": ["<specific concerns: location mismatch, seniority gap, salary below floor, domain mismatch, etc. Empty list if none.>"],
+  "is_alert": <true if score >= 90, otherwise false>
+}

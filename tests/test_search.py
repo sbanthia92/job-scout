@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Any
 from unittest.mock import AsyncMock, patch
 
 import httpx
@@ -13,8 +14,8 @@ from job_scout.search import search_jobs
 FIXTURE_DIR = Path(__file__).parent / "fixtures" / "serpapi"
 
 
-def load_fixture(name: str) -> dict:  # type: ignore[type-arg]
-    return json.loads((FIXTURE_DIR / name).read_text())  # type: ignore[return-value]
+def load_fixture(name: str) -> dict[str, Any]:
+    return json.loads((FIXTURE_DIR / name).read_text())  # type: ignore[no-any-return]
 
 
 def _client() -> httpx.AsyncClient:

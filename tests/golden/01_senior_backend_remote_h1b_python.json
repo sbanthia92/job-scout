@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "stripe::senior backend engineer::remote",
+    "title": "Senior Backend Engineer",
+    "company": "Stripe",
+    "location": "Remote",
+    "description": "We are looking for a Senior Backend Engineer to join our Payments Infrastructure team. You will design and build highly available distributed systems processing millions of transactions per second. Our stack is primarily Python (asyncio, FastAPI) with PostgreSQL and Kafka. We offer H-1B visa sponsorship for qualified candidates. This is a fully remote position.",
+    "source": "serpapi_test",
+    "salary_min": 215000,
+    "salary_max": 260000,
+    "salary_currency": "USD",
+    "is_remote": true,
+    "posted_at": "2 days ago",
+    "apply_link": "https://stripe.com/jobs/123"
+  },
+  "expected_score_min": 88,
+  "expected_score_max": 100,
+  "label": "senior_backend_remote_h1b_python"
+}

@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "pagerduty::senior devops-sre engineer::remote",
+    "title": "Senior DevOps/SRE Engineer",
+    "company": "PagerDuty",
+    "location": "Remote",
+    "description": "PagerDuty is looking for a Senior DevOps/SRE Engineer to own our reliability engineering practice. You will manage Kubernetes clusters, write Terraform modules, build alerting runbooks, and respond to on-call incidents. Python scripting knowledge is a plus. This is a primarily operations-focused role. Visa sponsorship available. Fully remote.",
+    "source": "serpapi_test",
+    "salary_min": 200000,
+    "salary_max": 240000,
+    "salary_currency": "USD",
+    "is_remote": true,
+    "posted_at": "1 week ago",
+    "apply_link": "https://pagerduty.com/careers/222"
+  },
+  "expected_score_min": 25,
+  "expected_score_max": 45,
+  "label": "senior_devops_sre_remote_ops_primary"
+}

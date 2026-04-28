@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "figma::senior full-stack engineer::remote",
+    "title": "Senior Full-Stack Engineer",
+    "company": "Figma",
+    "location": "Remote",
+    "description": "Figma is looking for a Senior Full-Stack Engineer to work across our product surface. The role is roughly 60% Python backend (FastAPI, PostgreSQL) and 40% React/TypeScript frontend. You will own features end-to-end from API design to UI polish. We welcome candidates who require H-1B visa sponsorship. This is a remote-first role.",
+    "source": "serpapi_test",
+    "salary_min": 205000,
+    "salary_max": 250000,
+    "salary_currency": "USD",
+    "is_remote": true,
+    "posted_at": "1 week ago",
+    "apply_link": "https://figma.com/careers/654"
+  },
+  "expected_score_min": 55,
+  "expected_score_max": 75,
+  "label": "senior_fullstack_remote_python_react"
+}
