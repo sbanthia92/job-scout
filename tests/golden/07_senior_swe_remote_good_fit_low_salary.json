@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "mongodb::senior software engineer::remote",
+    "title": "Senior Software Engineer",
+    "company": "MongoDB",
+    "location": "Remote",
+    "description": "MongoDB is hiring a Senior Software Engineer for our Query Execution team. You will work on the core Python-based query planning and execution engine. Great cultural fit, strong mentorship culture, and challenging distributed systems problems. We sponsor H-1B visas. Remote-first position.",
+    "source": "serpapi_test",
+    "salary_min": 175000,
+    "salary_max": 210000,
+    "salary_currency": "USD",
+    "is_remote": true,
+    "posted_at": "4 days ago",
+    "apply_link": "https://mongodb.com/careers/111"
+  },
+  "expected_score_min": 47,
+  "expected_score_max": 67,
+  "label": "senior_swe_remote_good_fit_low_salary"
+}

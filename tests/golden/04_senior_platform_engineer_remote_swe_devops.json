@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "netflix::senior platform engineer::remote",
+    "title": "Senior Platform Engineer",
+    "company": "Netflix",
+    "location": "Remote",
+    "description": "Netflix is seeking a Senior Platform Engineer who thinks like a software engineer first. You will build internal deployment platforms, improve CI/CD pipelines, and write substantial Python services that power our infrastructure. This is primarily a software engineering role with deep infrastructure scope — you will write far more application code than you will manage infrastructure config. H-1B visa sponsorship available. Fully remote.",
+    "source": "serpapi_test",
+    "salary_min": 210000,
+    "salary_max": 255000,
+    "salary_currency": "USD",
+    "is_remote": true,
+    "posted_at": "5 days ago",
+    "apply_link": "https://jobs.netflix.com/321"
+  },
+  "expected_score_min": 68,
+  "expected_score_max": 85,
+  "label": "senior_platform_engineer_remote_swe_devops"
+}

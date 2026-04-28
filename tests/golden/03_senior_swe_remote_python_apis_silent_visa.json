@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "datadog::senior software engineer::remote",
+    "title": "Senior Software Engineer",
+    "company": "Datadog",
+    "location": "Remote",
+    "description": "Datadog is hiring a Senior Software Engineer for our Core API platform. You will design RESTful and gRPC APIs consumed by millions of customers. We use Python extensively across our backend services. Strong distributed systems knowledge required. Competitive compensation and full benefits. Fully remote role open to candidates across the US.",
+    "source": "serpapi_test",
+    "salary_min": 200000,
+    "salary_max": 245000,
+    "salary_currency": "USD",
+    "is_remote": true,
+    "posted_at": "3 days ago",
+    "apply_link": "https://datadoghq.com/jobs/789"
+  },
+  "expected_score_min": 75,
+  "expected_score_max": 90,
+  "label": "senior_swe_remote_python_apis_silent_visa"
+}

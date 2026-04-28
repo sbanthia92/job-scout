@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "booz allen hamilton::senior software engineer::san diego, ca",
+    "title": "Senior Software Engineer",
+    "company": "Booz Allen Hamilton",
+    "location": "San Diego, CA",
+    "description": "We are seeking a Senior Software Engineer to build enterprise backend systems for our government clients. Primary language is Java (Spring Boot), with some Python scripting. The role is based in San Diego. We provide H-1B visa sponsorship on a case-by-case basis. Strong OOP and distributed systems background required.",
+    "source": "serpapi_test",
+    "salary_min": 200000,
+    "salary_max": 235000,
+    "salary_currency": "USD",
+    "is_remote": false,
+    "posted_at": "2 weeks ago",
+    "apply_link": "https://boozallen.com/careers/987"
+  },
+  "expected_score_min": 50,
+  "expected_score_max": 70,
+  "label": "senior_swe_san_diego_java_primary"
+}

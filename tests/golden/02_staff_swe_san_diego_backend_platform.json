@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "qualcomm::staff software engineer::san diego, ca",
+    "title": "Staff Software Engineer",
+    "company": "Qualcomm",
+    "location": "San Diego, CA",
+    "description": "Join Qualcomm's Backend Platform team as a Staff Software Engineer. You will architect and lead development of internal developer platforms used by thousands of engineers worldwide. Strong backend systems experience required; Python and Go preferred. We sponsor H-1B visas. This role is based at our San Diego headquarters with flexible hybrid options within San Diego.",
+    "source": "serpapi_test",
+    "salary_min": 220000,
+    "salary_max": 270000,
+    "salary_currency": "USD",
+    "is_remote": false,
+    "posted_at": "1 week ago",
+    "apply_link": "https://qualcomm.com/careers/456"
+  },
+  "expected_score_min": 80,
+  "expected_score_max": 95,
+  "label": "staff_swe_san_diego_backend_platform"
+}
