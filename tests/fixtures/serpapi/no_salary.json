@@ -1,0 +1,17 @@
+{
+  "jobs_results": [
+    {
+      "title": "Backend Engineer",
+      "company_name": "Startup Co",
+      "location": "New York, NY",
+      "description": "Join our growing team as a backend engineer. We build fintech infrastructure at scale.",
+      "job_id": "serpapi_def456",
+      "detected_extensions": {
+        "posted_at": "1 week ago",
+        "schedule_type": "Full-time"
+      },
+      "apply_options": [],
+      "salaries": []
+    }
+  ]
+}

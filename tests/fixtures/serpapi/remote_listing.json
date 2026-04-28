@@ -1,0 +1,31 @@
+{
+  "jobs_results": [
+    {
+      "title": "Staff Engineer",
+      "company_name": "Remote First Inc",
+      "location": "Anywhere",
+      "description": "Fully remote position. We are a fully distributed team looking for a staff engineer to lead our platform work.",
+      "job_id": "serpapi_jkl012",
+      "detected_extensions": {
+        "work_from_home": true,
+        "posted_at": "2 days ago",
+        "schedule_type": "Full-time"
+      },
+      "apply_options": [
+        {
+          "title": "Apply",
+          "link": "https://remotefirst.com/jobs/1"
+        }
+      ],
+      "salaries": [
+        {
+          "salary": "200K–250K",
+          "type": "YEAR",
+          "min_salary": 200000,
+          "max_salary": 250000,
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}

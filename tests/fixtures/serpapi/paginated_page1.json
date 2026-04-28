@@ -1,0 +1,19 @@
+{
+  "jobs_results": [
+    {
+      "title": "Python Engineer",
+      "company_name": "Page One Co",
+      "location": "Seattle, WA",
+      "description": "Python engineer role — page 1 result. Build data pipelines and APIs.",
+      "job_id": "serpapi_page1_job1",
+      "detected_extensions": {
+        "posted_at": "4 days ago"
+      },
+      "apply_options": [],
+      "salaries": []
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "next_token_abc123"
+  }
+}

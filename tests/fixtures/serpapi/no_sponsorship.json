@@ -1,0 +1,25 @@
+{
+  "jobs_results": [
+    {
+      "title": "Software Engineer",
+      "company_name": "Finance Corp",
+      "location": "Chicago, IL",
+      "description": "We are looking for a software engineer. Note: we do not offer visa sponsorship. Candidates must be legally authorized to work in the United States without employer support.",
+      "job_id": "serpapi_ghi789",
+      "detected_extensions": {
+        "posted_at": "2 days ago",
+        "schedule_type": "Full-time"
+      },
+      "apply_options": [],
+      "salaries": [
+        {
+          "salary": "120K–160K",
+          "type": "YEAR",
+          "min_salary": 120000,
+          "max_salary": 160000,
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}
