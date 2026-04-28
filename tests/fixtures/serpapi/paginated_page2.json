@@ -1,0 +1,16 @@
+{
+  "jobs_results": [
+    {
+      "title": "Go Engineer",
+      "company_name": "Page Two Co",
+      "location": "Austin, TX",
+      "description": "Go engineer role — page 2 result. Infrastructure and platform work.",
+      "job_id": "serpapi_page2_job1",
+      "detected_extensions": {
+        "posted_at": "5 days ago"
+      },
+      "apply_options": [],
+      "salaries": []
+    }
+  ]
+}

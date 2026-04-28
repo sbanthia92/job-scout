@@ -1,0 +1,30 @@
+{
+  "jobs_results": [
+    {
+      "title": "Senior Software Engineer",
+      "company_name": "Acme Corp",
+      "location": "San Francisco, CA",
+      "description": "We are looking for a senior software engineer to build distributed systems using Python and Go. Great culture, strong compensation.",
+      "job_id": "serpapi_abc123",
+      "detected_extensions": {
+        "posted_at": "3 days ago",
+        "schedule_type": "Full-time"
+      },
+      "apply_options": [
+        {
+          "title": "Apply on Acme",
+          "link": "https://acme.com/jobs/123"
+        }
+      ],
+      "salaries": [
+        {
+          "salary": "150K–180K",
+          "type": "YEAR",
+          "min_salary": 150000,
+          "max_salary": 180000,
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}
